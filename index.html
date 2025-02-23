@@ -1,0 +1,129 @@
+<!DOCTYPE html> <!-- defines the doc type, neede for some reason-->
+<html>
+    <head> 
+<title>First Code</title> <!-- Title that shows up on tab-->
+<style>
+   body {
+    font-size: 70px;
+    background-color: #242933;
+    color: rgb(25, 154, 177);
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    text-align: center; /* Centers text elements */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+    min-height: 100vh; /* Full height of the viewport */
+    margin: 0; /* Remove default margin */
+  }
+
+  /* Ensures form elements and lists are centered */
+  div, ul, ol, form, section {
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  </style>
+
+    </head>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+      </head>
+
+    <body>
+
+
+        <!-- Headings: -->
+
+<strong> <h1>LUKE'S HTML CODE</h1></strong>
+ 
+  <!-- P = Paragraph --> <!-- Ctrl + Enter to go next line in the middle of a line -->
+
+    <p style="margin-top: 10px;"> 
+       This word is <em>Italic</em> so you <em>know</em> it's important! <br> <!-- em = Emphasized -->
+       This word is <Strong>Bold</Strong> so you <strong>KNOW</strong> it's eye catching! <br> <!-- Strong = bold--> 
+       Use em for italic and strong for bold!
+    </p>
+
+     <!-- HYPERLINK -->
+   <p>
+    <a href= "https://youtu.be/UB1O30fR-EE?t=3032" target="_blank"> This HyperLink takes you to the YouTube Video I was watching before i went to bed </a> 
+   </p>
+   <!-- a = attribute - href= link - target="_blank" opens link in new tab-->
+
+<!-- Lists -->
+
+ <ul> <!-- ul = un-ordered list-->
+  <h1>UL LIST</h1>
+<li>Example</li> <!-- list item-->
+<li>Example</li>
+<li>Example</li>
+ </ul>
+
+ <ol> <!-- ol = ordered list-->
+  <h1>OL LIST</h1>
+<li>Example</li> <!-- list item-->
+<li>Example</li> 
+<li>Example</li>
+ </ol>
+ 
+ 
+<hr><!-- Horizontal Rule-->
+ <br>  <!-- Line Break -->
+
+ <!-- Forms -->
+
+ <div>
+  <label for="firstName">First Name</label>
+  <input type="text" id="firstName" name="firstName" placeholder="Enter first name" 
+  style="width: 100%; height: 40px; padding: 10px; font-size: 16px;">
+</div>
+<br>
+<div>
+  <label>Last name</label>
+  <input type="text" name="lastName" placeholder="Enter Last Name"
+  style="width: 100%; height: 40px; padding: 10px; font-size: 16px;">
+</div>
+<br>
+<div>
+  <label>Email</label>
+  <input type="email" name="lastName" placeholder="Enter Email" 
+  style="width: 100%; height: 40px; padding: 10px; font-size: 16px;">
+</div>
+<br>
+<div>
+  <label>Message</label>
+  <textarea type="message" name="message" placeholder="Enter Message" s
+  tyle="width: 100%; height: 40px; padding: 10px; font-size: 16px;">
+  </textarea>
+</div>
+<br>
+<div>
+  <label>Gender</label>
+  <select name="Gender">
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+  </select>
+</div>
+<br>
+<div>
+  <label>Age:</label>
+  <input type="number" name="age" placeholder="Enter Age" value="0">
+  </div>
+  <br>
+  </form>
+  <!--  button -->
+    <button>Submit</button> <!-- does nothing without css -->
+    <br>
+    <br>
+    <!--  images -->
+      <a href="images/vsc.jpg"> <!--makes the image clickable-->
+      <img src="images/vsc.jpg" alt="VSC Logo" width="100px"
+      height = 100px>
+      <!--  img src = image source alt = what is displayed if
+        cant be found width and height is obvious-->
+    </a>
+ 
+    </body>
+</html>
